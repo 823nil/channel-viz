@@ -330,7 +330,7 @@
 
 					$('#feed-' + data.id + ' .duration-day').click(function() {
 						$('#loadingData').foundation('reveal', 'open');
-						updateFeeds(data.id, thisFeedDatastreams, '1day', 60);
+						updateFeeds(data.id, thisFeedDatastreams, '1day', 300);
 						return false;
 					});
 
